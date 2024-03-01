@@ -39,7 +39,7 @@ export default function OpportunityAvailable() {
           <div key={index} className='bg-[#1B2129] rounded-xl'>
             <div className='p-4 sm:p-6 flex sm:flex-row items-center justify-between'>
               <div className='mb-4 sm:mb-0 sm:mr-4'>
-                <h3 className='text-xl sm:text-2xl font-questrial font-normal text-white'>{oportunity.position}</h3>
+                <h3 className='text-xl sm:text-2xl font-gilroy font-normal text-white'>{oportunity.position}</h3>
                 <p className='text-sm sm:text-base text-[#9A9CA0] font-gilroy'>{oportunity.modeOfWork}</p>
               </div>
               <div className='text-[#CCCECF] text-xl'>

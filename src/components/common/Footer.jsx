@@ -40,7 +40,7 @@ export default function Footer() {
                 <Link to='/'><li className='p-1.5 hover:text-[#1FA3ED] text-sm'>News and Press</li></Link>
               </div>
             </div>
-            <div className='hidden md:block'>
+            <div className='hidden md:block font-gilroy'>
               <Link to='/'><li className='list-none text-[#1FA3ED] font-normal text-lg p-1.5'>Support</li></Link>
               <Link to='/'><li className='text-sm list-none text-[#B3B5B8] p-1.5 hover:text-[#1FA3ED]'>Login</li></Link>
               <Link to='/'><li className='text-sm list-none text-[#B3B5B8] p-1.5 hover:text-[#1FA3ED]' >Developer</li></Link>
@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className='bg-[#1B2129] h-[48px] text-[#B3B5B8] flex justify-center items-center font-gilroy gap-x-4 md:gap-x-28 text-sm list-none p-1'>
+      <div className='bg-[#1B2129] h-[48px] text-[#B3B5B8] flex justify-center items-center font-gilroy gap-x-3 md:gap-x-28 text-xs md:text-sm list-none p-1'>
         <Link to=''> <li className=''>Terms of Use</li> </Link>
         <Link to=''> <li className=''>Compliances</li> </Link>
         <Link to=''> <li className=''>Privacy</li> </Link>
